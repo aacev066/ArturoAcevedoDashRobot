@@ -10,6 +10,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 import com.art.lab1.DashRobot;
+import com.art.lab3.SmartVehicle;
 
 import edu.fiu.jit.appexample.MainComponent;
 
@@ -30,7 +31,7 @@ public class SelfCheckTester {
 	public void test() {
 		// Change the following line after "new"
 		// To create an instance of YOUR main class
-		GenericComponent testTarget = new DashRobot();
+		GenericComponent testTarget = new SmartVehicle();
 		assertNotEquals(testTarget.getComponentName(), "Template main component");
 		try {
 			assertTrue(checkComponents(testTarget, testTarget.getSubComponents()));			

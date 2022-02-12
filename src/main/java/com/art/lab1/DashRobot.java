@@ -10,7 +10,7 @@ import edu.fiu.jit.EmptyComponent;
  * @author User
  *
  */
-public class DashRobot extends EmptyComponent{
+public class DashRobot {
 	
 	private String model;
 	private String color;
